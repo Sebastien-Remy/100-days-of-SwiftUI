@@ -96,7 +96,7 @@ print(multiples)
 
 // Checkpoint 3
 
-for i in 1...   100 {
+for i in 1...100 {
     if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
         print("\(i) -> FizzBuzz")
     } else if i.isMultiple(of: 3) {
